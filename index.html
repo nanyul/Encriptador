@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width" initial-scale=1.0"&amp;gt;> -->
+        <title>Encriptador / Desencriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador.css">
+        <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+        <enlace href="https: //fonts.googleapis.com/css2? familia= Inter:peso@200;300 & display=swap" rel="hoja de estilo">
+    </head>
+
+    <body>
+        <div>
+            <header>
+                <img class="logo" src="logo.svg">
+                <h1 class="titulo">Encripte o Desencripte su texto aquí</h1>
+            </header> 
+        </div>
+
+        <main>
+        
+            <section>
+                <textarea  class="casilla-texto" rows="20" cols="50"  placeholder="Ingresa el texto"></textarea>
+
+                <h6 class="informacion"><img src="Vector.svg" class="logo2">Solo letras minusculas y sin acentos</h6>
+               
+                <div class="botones">
+                    <button class="bt_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="bt_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                    <button class="bt_actualizar" onclick="location.reload()">Actualizar</button>
+
+                </div>
+            </section>
+            <section>
+                <textarea class="casilla-resultado" rows="20" cols="50" placeholder="Aquí su resultado"></textarea>
+            </section>
+        </main>
+        <script src="script.js"></script>
+
+        <footer>
+            <img src="">
+            <h3>&copy; 2023 Nancy Araya</h3>
+        </footer>
+
+    </body>
+</html>
+
