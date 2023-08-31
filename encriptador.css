@@ -39,7 +39,7 @@ main{
     margin-left: 180px; */
 
     justify-content: space-between;
-    outline: 1px solid red;
+    outline: 1px solid transparent;
     margin: 0 auto;
     align-content: center;
 }
@@ -162,6 +162,7 @@ main{
     font-size: medium;
     color:black;
     margin-top: 35px;
+
 }
 
 .bt_actualizar:hover{
