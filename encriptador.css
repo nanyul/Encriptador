@@ -174,7 +174,7 @@ footer{
 }
 
 /* para cel */
-@media(max-width: 798px){
+@media(max-width: 720px){
     body {
         font-size: 24px;
     }
